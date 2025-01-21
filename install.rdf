@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description
+    about="urn:mozilla:install-manifest"
+
+    em:name="PlexIt for Firefox"
+    em:description="Easily send videos to your Plex server"
+    em:creator="simpleMODteam"
+
+    em:id="plexit@simplemod.co.nr"
+    em:version="1.0"
+    em:homepageURL="www.simplemod.co.nr"
+
+    em:iconURL="chrome://plexit/content/icon.png" >
+
+    <em:targetApplication><!-- Firefox -->
+      <Description
+        em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+        em:minVersion="1.4"
+        em:maxVersion="42.*" />
+    </em:targetApplication>
+
+    <em:file>
+      <Description
+        about="urn:mozilla:extension:plexit"
+        em:package="content/plexit/" />
+    </em:file>
+
+  </Description>
+
+</RDF>

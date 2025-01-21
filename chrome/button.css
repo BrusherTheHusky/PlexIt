@@ -1,0 +1,16 @@
+#plex-it-1,
+#wrapper-plex-it-1
+  {list-style-image: url("chrome://plexit/content/button-1.png");}
+
+/* common style for all custom buttons */
+.plexit                  
+  {-moz-image-region: rect( 0px 48px 48px 0px);}
+
+.plexit:hover     
+  {-moz-image-region: rect(48px 48px 96px 0px);}
+
+[iconsize="small"] .plexit
+  {-moz-image-region: rect( 0px 64px 16px 48px);}
+
+[iconsize="small"] .plexit:hover
+  {-moz-image-region: rect(48px 64px 64px 48px);}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+  href="chrome://plexit/content/button.css"?>
+
+<!DOCTYPE overlay >
+<overlay id="plexit-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/javascript"
+  src="chrome://plexit/content/button.js"/>
+
+<!-- Firefox -->
+<toolbarpalette id="BrowserToolbarPalette">
+  <toolbarbutton id="plex-it-1"/>
+  </toolbarpalette>
+
+<!-- button details -->
+<toolbarbutton id="plex-it-1"
+  label="Plex It!"
+  tooltiptext="Send to Plex"
+  oncommand="PlexIt[1]()"
+  class="toolbarbutton-1 chromeclass-toolbar-additional plexit"
+  />
+
+</overlay>

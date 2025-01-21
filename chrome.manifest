@@ -1,0 +1,5 @@
+content plexit chrome/
+style chrome://global/content/customizeToolbar.xul chrome://plexit/content/button.css
+
+# Firefox
+overlay	chrome://browser/content/browser.xul chrome://plexit/content/button.xul
